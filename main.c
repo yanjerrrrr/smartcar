@@ -55,7 +55,7 @@ int main(void)
                 /* Access one pixel in the frame */
                 buffer[i];
             
-                //implement median filter            
+                /* implement median filter */
                 for (rt_uint16_t w = 0; w < width-1; w++){ // width-1 or width
                     for (rt_uint16_t h = 0; h < height-1; h++){ // height-1 or height
                         rt_uint16_t k = 0;
